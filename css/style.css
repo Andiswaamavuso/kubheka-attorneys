@@ -36,7 +36,7 @@ html{
 
 section{
    padding:7rem 2rem;
-   background-color: #5c5959;
+   background-color: black;
 }
 
 .heading{
@@ -68,23 +68,21 @@ section{
 .header{
    padding:2rem;
    border-bottom: var(--border);
-   background-color: #5c5959;
 }
 
 .header.active{
-   background-color: #5c5959;
+   background-color: #383838;
    box-shadow: var(--box-shadow);
    border:0;
 }
 
 .header .logo{
    font-size: 2rem;
-   color:var(--black);
+   color:rgb(216, 188, 113);
 }
 
-.header .logo img{
-   height: 50px;
-   width: 100px;
+.header .logo span{
+   color:var(--white);
 }
 
 .header .nav a{
@@ -164,7 +162,7 @@ section{
 }
 
 .services{
-   background-color: #5c5959;
+   background-color: #383838;
 }
 
 .services .box-container{
